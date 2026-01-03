@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact Us | Coder Universe</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Contact Coder Universe for research paper writing, assignments, quizzes, and professional data entry services. Available 24/7 for global clients.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="nav-inner">
+
+    <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" alt="Coder Universe Logo" class="logo">
+    </a>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link active cta">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="section hero">
+  <div class="container">
+    <h1 class="section-title">Contact Us</h1>
+    <p class="section-sub">
+      Get in touch with Coder Universe — we’re available 24/7 for global clients
+    </p>
+  </div>
+</section>
+
+<!-- ================= CONTACT CONTENT ================= -->
+<section class="section">
+  <div class="container grid cols-2 contact-grid">
+
+    <!-- LEFT: CONTACT INFO -->
+    <div class="service-card">
+      <h2>Get in Touch</h2>
+      <p>
+        Have a question or need academic or data support?
+        Reach out to us using the details below — we respond quickly.
+      </p>
+
+      <ul class="contact-info">
+        <li><strong>Email:</strong><br>
+          <a href="mailto:coderuniverse.in@gmail.com">coderuniverse.in@gmail.com</a>
+        </li>
+
+        <li><strong>WhatsApp:</strong><br>
+          <a href="https://wa.me/message/QSFINQKVRJGCO1" target="_blank">
+            Chat on WhatsApp
+          </a>
+        </li>
+
+        <li><strong>Availability:</strong><br>
+          24/7 Global Support
+        </li>
+      </ul>
+
+      <p style="margin-top:16px; color:#9aa0a6;">
+        📌 We work with international students and foreign clients worldwide.
+      </p>
+    </div>
+
+    <!-- RIGHT: CONTACT FORM -->
+    <div class="service-card">
+      <h2>Send Us a Message</h2>
+
+      <form class="contact-form"
+            action="mailto:coderuniverse.in@gmail.com"
+            method="post"
+            enctype="text/plain">
+
+        <label>
+          Full Name
+          <input type="text" name="Name" required>
+        </label>
+
+        <label>
+          Email Address
+          <input type="email" name="Email" required>
+        </label>
+
+        <label>
+          Country
+          <input type="text" name="Country">
+        </label>
+
+        <label>
+          Service Required
+          <input type="text" name="Service" placeholder="Research, Assignment, Data Entry, etc.">
+        </label>
+
+        <label>
+          Message
+          <textarea name="Message" rows="5" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send Message</button>
+          <a href="https://wa.me/message/QSFINQKVRJGCO1"
+             target="_blank"
+             class="btn ghost">
+            WhatsApp Us
+          </a>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section">
+  <div class="container">
+    <div class="service-card" style="text-align:center;">
+      <h2 class="section-title">Let’s Work Together</h2>
+      <p class="section-sub">
+        Professional academic and data services you can trust.
+      </p>
+      <a href="services.html" class="btn primary">View Our Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

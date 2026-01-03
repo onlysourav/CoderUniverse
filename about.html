@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic SEO -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Coder Universe">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Coder Universe</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="description" content="About Coder Universe – We support international students and global clients with academic writing and data entry services." />
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="container nav-inner">
+     <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" class="logo" alt="Coder Universe">
+    </a>
+
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+     <nav class="nav-menu" id="navMenu">
+      <a href="index.html" class="nav-link ">Home</a>
+      <a href="about.html" class="nav-link active cta">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link ">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= ABOUT HERO ================= -->
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">About Coder Universe</h1>
+    <p class="section-sub">
+      Empowering international students and businesses through reliable academic and data solutions.
+    </p>
+  </div>
+</section>
+
+<!-- ================= ABOUT CONTENT ================= -->
+<section class="section">
+  <div class="container grid cols-2">
+
+    <!-- LEFT COLUMN -->
+    <div>
+      <h2 class="section-title">Who We Are</h2>
+      <p>
+        <strong>Coder Universe</strong> is a global academic and professional support service dedicated
+        to helping international students and foreign clients achieve their goals with confidence.
+        We specialize in research paper writing, assignments, quizzes, discussion support, and
+        high-accuracy data entry services.
+      </p>
+
+      <p>
+        Our team consists of experienced academic writers, analysts, and data professionals who
+        understand international university standards, grading rubrics, and business expectations.
+        Every project we handle is customized, confidential, and delivered with precision.
+      </p>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div>
+      <h2 class="section-title">Our Mission</h2>
+      <p>
+        Our mission is to deliver ethical, plagiarism-free, and high-quality academic and data
+        solutions that support success across borders. We aim to reduce stress for students and
+        provide dependable outsourcing support for global businesses.
+      </p>
+
+      <h2 class="section-title">Our Vision</h2>
+      <p>
+        To become a trusted global partner for academic assistance and data services by combining
+        expertise, integrity, and timely delivery.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= VALUES ================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Our Core Values</h2>
+    <p class="section-sub">The principles that guide everything we do</p>
+
+    <div class="grid cols-4">
+      <div class="service-card">
+        <h3>Academic Integrity</h3>
+        <p>
+          We strictly follow ethical writing standards, ensuring originality, proper citations,
+          and plagiarism-free content.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Confidentiality</h3>
+        <p>
+          Client privacy is our priority. All documents, data, and communications are kept
+          secure and private.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Quality Focus</h3>
+        <p>
+          Each project undergoes quality checks to meet academic, technical, and professional
+          standards.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Timely Delivery</h3>
+        <p>
+          We respect deadlines and understand their importance for academic and business success.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Why Choose Coder Universe?</h2>
+    <p class="section-sub">What makes us different</p>
+
+    <div class="grid cols-2">
+      <div class="service-card">
+        <ul>
+          <li>✔ Experienced academic and data professionals</li>
+          <li>✔ Support for international university standards</li>
+          <li>✔ Transparent communication</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <ul>
+          <li>✔ 24/7 global availability</li>
+          <li>✔ Customized solutions for every client</li>
+          <li>✔ Competitive and fair pricing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section">
+  <div class="container">
+    <div class="service-card" style="text-align:center;">
+      <h2 class="section-title">Ready to Work With Us?</h2>
+      <p class="section-sub">
+        Contact Coder Universe today and let us help you succeed.
+      </p>
+      <a href="index.html#contact" class="btn primary">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

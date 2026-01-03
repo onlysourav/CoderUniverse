@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <!-- Basic SEO -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Coder Universe">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Coder Universe</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="description" content="Privacy Policy of Coder Universe. Learn how we collect, use, and protect personal data in compliance with GDPR." />
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" alt="Coder Universe Logo" class="logo">
+    </a>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+     <nav class="nav-menu" id="navMenu">
+      <a href="index.html" class="nav-link cta">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link ">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= CONTENT ================= -->
+<section class="section">
+  <div class="container">
+
+    <h1 class="section-title">Privacy Policy</h1>
+    <p class="section-sub">
+      Last updated: <strong>January 2026</strong>
+    </p>
+
+    <p>
+      At <strong>Coder Universe</strong>, we respect your privacy and are committed to protecting
+      the personal data of our users, clients, and visitors. This Privacy Policy explains how
+      we collect, use, store, and protect your information in accordance with the General Data
+      Protection Regulation (GDPR) and other applicable data protection laws.
+    </p>
+
+    <h2 class="section-title">1. Information We Collect</h2>
+    <p>We may collect the following types of information:</p>
+    <ul>
+      <li>Personal details such as name, email address, and country</li>
+      <li>Communication data submitted through contact forms, email, or WhatsApp</li>
+      <li>Technical data such as IP address, browser type, and device information (basic analytics)</li>
+    </ul>
+
+    <h2 class="section-title">2. How We Use Your Information</h2>
+    <p>Your information is used only for legitimate business purposes, including:</p>
+    <ul>
+      <li>Responding to inquiries and service requests</li>
+      <li>Providing academic writing and data entry services</li>
+      <li>Improving website performance and user experience</li>
+      <li>Meeting legal or regulatory obligations</li>
+    </ul>
+
+    <h2 class="section-title">3. Legal Basis for Processing</h2>
+    <p>
+      Under GDPR, we process personal data based on one or more of the following legal grounds:
+    </p>
+    <ul>
+      <li>Your explicit consent</li>
+      <li>Performance of a contract or service request</li>
+      <li>Compliance with legal obligations</li>
+      <li>Legitimate business interests that do not override your rights</li>
+    </ul>
+
+    <h2 class="section-title">4. Data Storage and Security</h2>
+    <p>
+      We take appropriate technical and organizational measures to protect your personal data
+      against unauthorized access, loss, or misuse. Access to personal data is restricted to
+      authorized team members only.
+    </p>
+
+    <h2 class="section-title">5. Data Sharing and Third Parties</h2>
+    <p>
+      We do not sell, trade, or rent your personal data to third parties. Data may only be shared
+      when necessary to deliver services or comply with legal obligations.
+    </p>
+
+    <h2 class="section-title">6. Data Retention</h2>
+    <p>
+      Personal data is retained only for as long as necessary to fulfill the purposes outlined
+      in this policy or to comply with legal requirements.
+    </p>
+
+    <h2 class="section-title">7. Your Rights Under GDPR</h2>
+    <p>
+      If you are located in the European Economic Area (EEA), you have the right to:
+    </p>
+    <ul>
+      <li>Access your personal data</li>
+      <li>Request correction or deletion of your data</li>
+      <li>Restrict or object to data processing</li>
+      <li>Request data portability</li>
+      <li>Withdraw consent at any time</li>
+    </ul>
+
+    <h2 class="section-title">8. Cookies</h2>
+    <p>
+      Our website uses minimal cookies necessary for basic functionality and performance.
+      We do not use tracking or advertising cookies without user consent.
+    </p>
+
+    <h2 class="section-title">9. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy periodically. Any changes will be posted on this page
+      with an updated revision date.
+    </p>
+
+    <h2 class="section-title">10. Contact Information</h2>
+    <p>
+      If you have questions about this Privacy Policy or wish to exercise your data rights,
+      please contact us:
+    </p>
+    <p>
+      📧 Email:
+      <a href="mailto:coderuniverse.in@gmail.com">coderuniverse.in@gmail.com</a>
+    </p>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

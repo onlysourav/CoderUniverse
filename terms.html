@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic SEO -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Coder Universe">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions | Coder Universe</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="description" content="Terms and Conditions for using Coder Universe academic and data entry services." />
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" alt="Coder Universe Logo" class="logo">
+    </a>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+     <nav class="nav-menu" id="navMenu">
+       <a href="index.html" class="nav-link cta">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link ">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= CONTENT ================= -->
+<section class="section">
+  <div class="container">
+
+    <h1 class="section-title">Terms & Conditions</h1>
+    <p class="section-sub">
+      Last updated: <strong>January 2026</strong>
+    </p>
+
+    <p>
+      Welcome to <strong>Coder Universe</strong>. By accessing or using our website and services,
+      you agree to be bound by the following Terms and Conditions. Please read them carefully
+      before engaging with our services.
+    </p>
+
+    <h2 class="section-title">1. Services Overview</h2>
+    <p>
+      Coder Universe provides academic assistance services (including research writing, assignments,
+      quizzes, and discussion support) and professional data entry services for international
+      students and global clients.
+    </p>
+    <p>
+      Our services are intended for reference, guidance, and support purposes only.
+      Clients are responsible for ensuring that submitted work complies with their
+      institution’s academic integrity policies.
+    </p>
+
+    <h2 class="section-title">2. User Responsibilities</h2>
+    <ul>
+      <li>You agree to provide accurate and complete information when requesting services</li>
+      <li>You acknowledge responsibility for the final use and submission of delivered content</li>
+      <li>You agree not to use our services for unlawful or unethical purposes</li>
+    </ul>
+
+    <h2 class="section-title">3. Academic Integrity Disclaimer</h2>
+    <p>
+      Coder Universe does not encourage academic dishonesty. All academic content is provided
+      as learning material, study assistance, or reference guidance. It is the client’s
+      responsibility to use the content ethically and in accordance with institutional rules.
+    </p>
+
+    <h2 class="section-title">4. Payments and Refunds</h2>
+    <p>
+      Payment terms, pricing, and deadlines are agreed upon before project initiation.
+      Due to the customized nature of our services, refunds are evaluated on a case-by-case basis.
+      Partial refunds may be considered if services have not been fully delivered.
+    </p>
+
+    <h2 class="section-title">5. Revisions Policy</h2>
+    <p>
+      Reasonable revisions are provided based on the original project requirements.
+      Requests that fall outside the initial scope may incur additional charges.
+    </p>
+
+    <h2 class="section-title">6. Confidentiality</h2>
+    <p>
+      We respect client confidentiality and take reasonable measures to protect all shared
+      information and documents. However, we cannot guarantee absolute security over electronic
+      communications.
+    </p>
+
+    <h2 class="section-title">7. Limitation of Liability</h2>
+    <p>
+      Coder Universe shall not be held liable for any direct, indirect, incidental, or
+      consequential damages resulting from the use or misuse of our services, including
+      academic penalties or business losses.
+    </p>
+
+    <h2 class="section-title">8. Intellectual Property</h2>
+    <p>
+      All website content, branding, and materials remain the intellectual property of
+      Coder Universe unless otherwise stated. Clients may not resell or redistribute
+      delivered materials without permission.
+    </p>
+
+    <h2 class="section-title">9. Service Modifications</h2>
+    <p>
+      We reserve the right to modify, suspend, or discontinue any part of our services
+      or website content at any time without prior notice.
+    </p>
+
+    <h2 class="section-title">10. Governing Law</h2>
+    <p>
+      These Terms and Conditions shall be governed and interpreted in accordance with
+      applicable international business and contract principles.
+    </p>
+
+    <h2 class="section-title">11. Contact Information</h2>
+    <p>
+      If you have any questions regarding these Terms and Conditions, please contact us:
+    </p>
+    <p>
+      📧 Email:
+      <a href="mailto:coderuniverse.in@gmail.com">coderuniverse.in@gmail.com</a>
+    </p>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

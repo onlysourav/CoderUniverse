@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Coder Universe – Academic & Data Solutions</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Coder Universe offers research paper writing, assignments, quizzes, discussion support, and professional data entry services for international students and global clients.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="nav-inner">
+
+    <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" alt="Coder Universe Logo" class="logo">
+    </a>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+       <a href="index.html" class="nav-link ">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link active cta">Services</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link ">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="section hero">
+  <div class="container">
+    <h1 class="section-title">Our Services</h1>
+    <p class="section-sub">
+      Comprehensive academic assistance and professional data services for international clients
+    </p>
+  </div>
+</section>
+
+<!-- ================= SERVICES LIST ================= -->
+<section class="section">
+  <div class="container grid cols-2">
+
+    <!-- SERVICE 1 -->
+    <div class="service-card">
+      <h2>Research Paper Writing</h2>
+      <p>
+        We provide complete research paper support for undergraduate, postgraduate, and doctoral
+        students. Our services include topic selection, literature review, research design,
+        data analysis, interpretation, and academic formatting.
+      </p>
+      <ul>
+        <li>✔ Original, plagiarism-free content</li>
+        <li>✔ Proper citations (APA, MLA, IEEE, Harvard)</li>
+        <li>✔ University-standard academic language</li>
+      </ul>
+    </div>
+
+    <!-- SERVICE 2 -->
+    <div class="service-card">
+      <h2>Assignments & Essays</h2>
+      <p>
+        Our assignment and essay services help students meet tight deadlines without compromising
+        quality. We tailor each submission to specific grading rubrics and course requirements.
+      </p>
+      <ul>
+        <li>✔ Essays, reports, and case studies</li>
+        <li>✔ Discussion board posts</li>
+        <li>✔ Editing & proofreading</li>
+      </ul>
+    </div>
+
+    <!-- SERVICE 3 -->
+    <div class="service-card">
+      <h2>Quizzes & Online Academic Support</h2>
+      <p>
+        We assist with online quizzes, assessments, and academic preparation for distance learning
+        platforms used by international universities.
+      </p>
+      <ul>
+        <li>✔ Timed quiz assistance</li>
+        <li>✔ Concept clarification</li>
+        <li>✔ Exam preparation support</li>
+      </ul>
+    </div>
+
+    <!-- SERVICE 4 -->
+    <div class="service-card">
+      <h2>Data Entry & Administrative Services</h2>
+      <p>
+        Coder Universe also offers professional data entry services for foreign clients, ensuring
+        accuracy, confidentiality, and timely delivery.
+      </p>
+      <ul>
+        <li>✔ Data entry & data cleaning</li>
+        <li>✔ Excel & spreadsheet management</li>
+        <li>✔ Business data support</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Why Choose Coder Universe?</h2>
+    <p class="section-sub">Trusted by students and businesses worldwide</p>
+
+    <div class="grid cols-3">
+      <div class="service-card">
+        <h3>Global Standards</h3>
+        <p>We follow international academic and professional standards in every project.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Confidential & Secure</h3>
+        <p>Your data and documents are handled with strict confidentiality.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>On-Time Delivery</h3>
+        <p>We understand deadlines and ensure timely completion of all tasks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section">
+  <div class="container">
+    <div class="service-card" style="text-align:center;">
+      <h2 class="section-title">Need Any of These Services?</h2>
+      <p class="section-sub">
+        Contact us today and get professional assistance tailored to your needs.
+      </p>
+      <a href="index.html#contact" class="btn primary">Get Started</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

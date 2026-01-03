@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio | Coder Universe – Sample Work</title>
+
+  <!-- SEO -->
+  <meta name="description" content="View sample academic writing and data entry projects delivered by Coder Universe for international students and global clients.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="site-dark">
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="nav-inner">
+
+    <a href="index.html" class="brand">
+      <img src="assets/coder-universe-high-resolution-logo.png" alt="Coder Universe Logo" class="logo">
+    </a>
+
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link active cta">Portfolio</a>
+      <a href="contact.html" class="nav-link ">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="section hero">
+  <div class="container">
+    <h1 class="section-title">Our Portfolio</h1>
+    <p class="section-sub">
+      A glimpse of the academic and data projects we’ve delivered worldwide
+    </p>
+  </div>
+</section>
+
+<!-- ================= ACADEMIC PORTFOLIO ================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Academic Work Samples</h2>
+    <p class="section-sub">
+      Representative samples shown for reference only.
+    </p>
+
+    <div class="grid cols-3">
+
+      <div class="portfolio-card image-card">
+        <img src="assets/portfolio/research-sample.jpg" alt="Research Paper Sample">
+        <div class="portfolio-overlay">
+          <h3>Research Paper Sample</h3>
+          <p>Management & Social Sciences</p>
+        </div>
+      </div>
+
+      <div class="portfolio-card image-card">
+        <img src="assets/portfolio/assignment-sample.jpg" alt="Assignment Work">
+        <div class="portfolio-overlay">
+          <h3>Assignment & Essay Work</h3>
+          <p>Business & Computer Science</p>
+        </div>
+      </div>
+
+      <div class="portfolio-card image-card">
+        <img src="assets/portfolio/data-entry-sample.jpg" alt="Data Entry Dashboard">
+        <div class="portfolio-overlay">
+          <h3>Data Entry Dashboard</h3>
+          <p>Spreadsheets & Data Processing</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= DATA SERVICES PORTFOLIO ================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Data Entry & Business Projects</h2>
+    <p class="section-sub">
+      Professional data handling and administrative support for international clients
+    </p>
+
+    <div class="grid cols-3">
+      <div class="portfolio-card">
+        <div>
+          <h3>Data Entry Project</h3>
+          <p>Large-scale data processing</p>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <h3>Spreadsheet Management</h3>
+          <p>Excel & Google Sheets</p>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div>
+          <h3>Data Cleaning</h3>
+          <p>Accuracy & validation workflows</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DISCLAIMER ================= -->
+<section class="section">
+  <div class="container">
+    <div class="service-card">
+      <h3>Confidentiality Notice</h3>
+      <p>
+        All samples displayed are generalized representations. No real client data,
+        academic submissions, or proprietary information is shared publicly.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section">
+  <div class="container">
+    <div class="service-card" style="text-align:center;">
+      <h2 class="section-title">Interested in Working With Us?</h2>
+      <p class="section-sub">
+        Let us handle your academic or data projects professionally and confidentially.
+      </p>
+      <a href="index.html#contact" class="btn primary">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      © <span id="year"></span> Coder Universe. All Rights Reserved.
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a> •
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
